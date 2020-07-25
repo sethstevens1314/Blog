@@ -4,17 +4,26 @@
 <head>
     <meta charset="utf-8" />
     <title>My Blog</title>
-    <link href="style.css" type="text/css" />
+    <link href="style.css" type="text/css" rel="stylesheet"/>
 </head>
 <body>
     <header>
-        <h1>My Blog</h1>
+        <h1 class="need-center">My Blog</h1>
         <nav></nav>
+        <form class="form">
+            <input type="text"/>
+            <input type="text" />
+            <input type="submit" />
+        </form>
     </header>
     <main>
         <h1>Main content</h1>
-        <iframe src="https://open.spotify.com/embed/playlist/2l3yYly22mlJvRP5XBLT0O" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-
+        <!--<iframe src="https://open.spotify.com/embed/playlist/2l3yYly22mlJvRP5XBLT0O" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>-->
+        <div id="post">
+            <h2>Title</h2>
+            <h2>00/00/0000</h2>
+            <textarea id="TextArea1" rows="5" cols="20"></textarea>
+        </div>
     </main>
     <footer>
         <h1>Footer content</h1>
